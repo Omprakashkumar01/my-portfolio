@@ -1,0 +1,133 @@
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    height: 75px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    z-index: 1000; /* Keep navbar on top */
+  }
+  
+  /* Initial transparent background */
+  .navbar.transparent {
+    background-color: transparent;
+    color: #fff; /* Text color at the top */
+  }
+  
+  /* Background when scrolled */
+  .navbar.scrolled {
+    background-color: black;
+    color: #fff; /* Text color when scrolled */
+  }
+  a{
+    list-style-type: none;
+  }
+  .nav a {
+    color: rgb(199, 78, 243);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  .nav a:hover {
+    background-color: rgb(199, 78, 243);
+    color: white; /* Customize this color for hover effect */
+  }
+  
+  /* Active or visited link color */
+  .nav a:visited {
+    color: rgb(216, 25, 66);
+  }
+  .typing{
+    color:rgb(157, 20, 207);
+  }
+  
+  /* Logo styles */
+  .logo1 {
+    font-size: 1.5em;
+  }
+  
+  /* Navigation styles */
+  .nav {
+    display: flex;
+    gap: 20px; /* Space between nav items */
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Transition for color change */
+  }
+  
+  /* Change color on hover */
+  .nav ul:hover {
+    color: #f39eef; /* Change to desired hover color */
+  }
+  /* Menu icon hidden by default */
+.menu-icon {
+  display: none;
+}
+
+/* Display the menu icon only when `showMenuIcon` is true */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: rgb(199, 78, 243);
+  }
+}
+
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px 15px;
+    }
+  
+    .logo1 {
+      font-size: 1.3em;
+    }
+  
+    .nav {
+      display: none; /* Hide navigation links on small screens */
+    }
+  
+    /* Show the menu icon on smaller screens */
+    .menu-icon {
+      display: block;
+      font-size: 1.5em;
+      cursor: pointer;
+      color: rgb(199, 78, 243);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* Show the navbar as a vertical dropdown on smaller screens */
+    .navbar.open .nav {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 75px;
+      left: 0;
+      right: 0;
+      background-color: black;
+      padding: 20px;
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .logo1 {
+      font-size: 1.2em;
+    }
+  }
+  

@@ -1,0 +1,56 @@
+.connect-me-section {
+    padding: 20px;
+    color: white;
+    background-color: #1e1d1d; /* Light background color for contrast */
+    text-align: center; /* Center text and icons */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+  }
+  
+  .social-icon {
+    width: 40px; /* Set icon width */
+    height: 40px; /* Set icon height */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge icon on hover */
+  }
+  @media (max-width: 768px) {
+    .social-icons {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 15px; /* Reduce gap between icons on smaller screens */
+    }
+  
+    .social-icon {
+      width: 35px; /* Smaller icon size for tablet screens */
+      height: 35px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .connect-me-section {
+      padding: 15px;
+    }
+  
+    .social-icons {
+      gap: 10px; /* Further reduce gap between icons for mobile */
+    }
+  
+    .social-icon {
+      width: 30px; /* Smaller icon size for mobile screens */
+      height: 30px;
+    }
+  
+    .connect-me-section h2 {
+      font-size: 1.5em; /* Adjust heading size for mobile */
+      margin-bottom: 15px;
+    }
+  }
+  
