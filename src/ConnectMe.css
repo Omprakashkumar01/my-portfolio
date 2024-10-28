@@ -1,7 +1,8 @@
 .connect-me-section {
     padding: 20px;
     color: white;
-    background-color: #1e1d1d; /* Light background color for contrast */
+    background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(243,29,253,1) 50%, rgba(252,176,69,1) 100%);
     text-align: center; /* Center text and icons */
   }
   

@@ -61,10 +61,10 @@ const Experience = () => {
             className={`experience-card ${animationStates[index] ? "animate-left" : ""}`}
             key={index}
           >
-            <h3>{exp.title}</h3>
-            <h4>{exp.company}</h4>
-            <p>{exp.duration}</p>
-            <p>{exp.description}</p>
+            <h3>{exp.title}</h3><br></br>
+            <h4>{exp.company}</h4><br></br>
+            <p>{exp.duration}</p><br></br>
+            <p>{exp.description}</p><br></br>
           </div>
         ))}
       </div>
