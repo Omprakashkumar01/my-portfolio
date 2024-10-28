@@ -3,6 +3,7 @@ import "./Achievements.css"; // Import the CSS file
 
 const Achievements = () => {
   const achievements = [
+    { title: "Among top 22.38% of Leetcode coders" },
     {
       title: "Certified in Full Stack Development using MERN",
       details: "by Dr. Angela Yu (Udemy)",
