@@ -28,12 +28,25 @@ const Achievements = () => {
   // Reference for the achievements section
   const achievementsRef = useRef(null);
 
-  // Animation effect when the component mounts
+  // Intersection Observer to trigger animation on scroll
   useEffect(() => {
-    const section = achievementsRef.current;
-    if (section) {
-      section.classList.add("animate");
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("animate");
+          observer.unobserve(entry.target); // Unobserve once animated
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (achievementsRef.current) {
+      observer.observe(achievementsRef.current);
     }
+
+    return () => {
+      if (achievementsRef.current) observer.unobserve(achievementsRef.current);
+    };
   }, []);
 
   return (

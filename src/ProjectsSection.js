@@ -60,7 +60,7 @@ const ProjectsSection = () => {
   }, []);
 
   return (
-    <div className="projects-section" ref={sectionRef}>
+    <div id="project" className="projects-section" ref={sectionRef}>
       <h2 className={`project-title ${isVisible ? "float-up" : ""}`}>Projects</h2>
       <div className={`projects-container ${isVisible ? "float-up" : ""}`}>
         {projects.map((project, index) => (

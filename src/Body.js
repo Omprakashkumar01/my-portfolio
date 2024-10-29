@@ -2,7 +2,7 @@ import img from "./asset/me2.jpg";
 import TypingAnimation from "./TypingAnimation";
 export default function Body() {
   return (
-    <div className="new">
+    <div id="body-section"className="new">
     <div className="body1">
       <div className="intro-container">
       <h1 className="intro">Hi! I'm <span className="name">OM PRAKASH KUMAR</span></h1>

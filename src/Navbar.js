@@ -38,14 +38,15 @@ export default function Navbar() {
       <h1 className="logo1">Portfolio</h1>
       {showMenuIcon && (
         <div className="menu-icon" onClick={toggleMenu}>
-          &#9776; {/* Menu icon for mobile */}
+          &#9776;
         </div>
       )}
       <div className={`nav ${isOpen ? "show" : ""}`}>
-        <ul><a href="/" target="_blank">Home</a></ul>
+        <ul><a href="#body-section">Home</a></ul>
+        <ul><a href="#skills">Skills</a></ul>
         <ul><a href="https://leetcode.com/u/omprakashkumar/" target="_blank" rel="noopener noreferrer">Leetcode</a></ul>
-        <ul><a href="https://www.linkedin.com/in/om-prakash-kumar-557b18228/" target="_blank" rel="noopener noreferrer">Linkedin</a></ul>
-        <ul><a href="/" target="_blank" rel="noopener noreferrer">Contact Me</a></ul>
+        <ul><a href="#project">Project</a></ul>
+        <ul><a href="#connect-section">Connect Me</a></ul>
       </div>
     </div>
   );

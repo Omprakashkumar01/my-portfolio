@@ -61,6 +61,16 @@
 .achievements-item a:hover {
   text-decoration: underline;
 }
+.achievements-section {
+  opacity: 0; /* Initially hidden */
+  transform: translateY(30px); /* Starting position for the floating effect */
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.achievements-section.animate {
+  opacity: 1;
+  transform: translateY(0); /* Final position */
+}
 
 /* Responsive styles */
 @media (max-width: 768px) {
