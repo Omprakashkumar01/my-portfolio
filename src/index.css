@@ -87,7 +87,23 @@ body::after {
   color: aliceblue;
   padding: 50px;
 }
+.resume{
+  text-align: left;
+  padding-left: 17vh;
+  color: rgb(157, 20, 207);
+  font-size: 2em;
+}
 
+.resume a{
+  text-decoration: none;
+  color: rgb(20, 19, 20);
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(243,29,253,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.resume a svg{
+  color: rgb(157, 20, 207);
+}
 /* Responsive styles */
 @media (max-width: 1024px) {
   .intro-container {
@@ -185,6 +201,11 @@ body::after {
     gap: 10px;
     text-align: center;
     padding: 0 15px;
+  }
+  .resume{
+    margin-top: 13px;
+    text-align: center;
+    padding: 0;
   }
 }
 

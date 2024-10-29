@@ -44,3 +44,14 @@
   opacity: 1;
   transform: translateX(0);
 }
+
+@media (max-width: 480px) {
+  .experience-list{
+    flex-direction: column;
+  }
+  .experience-card{
+    height: fit-content;
+    width: auto;
+  }
+}
+
