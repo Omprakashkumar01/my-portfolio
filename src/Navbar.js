@@ -44,8 +44,8 @@ export default function Navbar() {
       <div className={`nav ${isOpen ? "show" : ""}`}>
         <ul><a href="/" target="_blank">Home</a></ul>
         <ul><a href="https://leetcode.com/u/omprakashkumar/" target="_blank" rel="noopener noreferrer">Leetcode</a></ul>
-        <ul><a href="https://www.linkedin.com/in/om-prakash-kumar-557b18228/">Linkedin</a></ul>
-        <ul><a href="/">Contact Me</a></ul>
+        <ul><a href="https://www.linkedin.com/in/om-prakash-kumar-557b18228/" target="_blank" rel="noopener noreferrer">Linkedin</a></ul>
+        <ul><a href="/" target="_blank" rel="noopener noreferrer">Contact Me</a></ul>
       </div>
     </div>
   );
