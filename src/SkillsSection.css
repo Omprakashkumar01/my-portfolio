@@ -1,6 +1,6 @@
 /* Background outside the skills box */
 .skills-background {
-  margin-top: 100px;
+  margin-top: 83px;
   background: rgb(131,58,180);
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(243,29,253,1) 50%, rgba(252,176,69,1) 100%);
   padding-top: 30px;
@@ -70,6 +70,7 @@ background: linear-gradient(90deg, rgba(169,71,207,1) 32%, rgba(157,20,207,1) 50
 }
 
 @media (max-width: 768px) {
+  
   .skills-section h2 {
     font-size: 1.3em; /* Smaller font size for medium screens */
   }
@@ -88,7 +89,9 @@ background: linear-gradient(90deg, rgba(169,71,207,1) 32%, rgba(157,20,207,1) 50
 }
 
 @media (max-width: 480px) {
-
+  .skills-background{
+    margin-top: 55px;
+  }
   .skills-section {
     transition: opacity 0.4s ease-out, transform 0.4s ease-out;
     padding: 15px;
