@@ -90,7 +90,7 @@ background: linear-gradient(90deg, rgba(169,71,207,1) 32%, rgba(157,20,207,1) 50
 
 @media (max-width: 480px) {
   .skills-background{
-    margin-top: 58px;
+    margin-top: 75px;
   }
   .skills-section {
     transition: opacity 0.4s ease-out, transform 0.4s ease-out;
