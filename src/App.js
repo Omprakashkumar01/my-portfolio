@@ -6,6 +6,7 @@ import ProjectsSection from './ProjectsSection';
 import Experience from './Experience';
 import ConnectMe from './ConnectMe';
 import Achievements from './Achievements';
+import CertificatesSection from './CertificatesSection';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Experience />
       <ProjectsSection />
       <Achievements />
+      <CertificatesSection />
       <ConnectMe />
     </div>
   );

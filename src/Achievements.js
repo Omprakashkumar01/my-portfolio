@@ -7,7 +7,6 @@ const Achievements = () => {
     {
       title: "Certified in Full Stack Development using MERN",
       details: "by Dr. Angela Yu (Udemy)",
-      link: "https://www.udemy.com/certificate/UC-e843031c-a1f0-469d-b622-75e1b727bd56"
     },
     { title: "Qualified GATE (EC) 2024" },
     { title: "Solved 300+ problems of DSA" },
@@ -19,7 +18,6 @@ const Achievements = () => {
     {
       title: "Certified in Python learning",
       details: "by FreeCodeCamp",
-      link: "https://www.freecodecamp.org/certification/fcc186d76e3-ff15-4c34-9f44-c42a0295e85c/scientific-computing-with-python-v7"
     },
     { title: "Participated in Smart India Hackathon (SIH) 2023" },
     { title: "Certified for attending workshops on Embedded Systems" }
