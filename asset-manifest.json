@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.5b29fc0c.css",
-    "main.js": "/my-portfolio/static/js/main.705f53a0.js",
-    "static/js/453.ed3810f9.chunk.js": "/my-portfolio/static/js/453.ed3810f9.chunk.js",
+    "main.js": "/my-portfolio/static/js/main.42604275.js",
+    "static/js/317.46da3abf.chunk.js": "/my-portfolio/static/js/317.46da3abf.chunk.js",
     "static/media/simon.png": "/my-portfolio/static/media/simon.e18ddcef58043d3bb7f3.png",
     "static/media/dicee.png": "/my-portfolio/static/media/dicee.4073a20dee905168ae97.png",
     "static/media/drum.png": "/my-portfolio/static/media/drum.141095286ec4f38e9bad.png",
@@ -10,17 +10,19 @@
     "static/media/freecodecamp-certificate.png": "/my-portfolio/static/media/freecodecamp-certificate.bb5ec1c02e077a18c59c.png",
     "static/media/me3.jpg": "/my-portfolio/static/media/me3.742eeb1081904560da9a.jpg",
     "static/media/udemy-certificate.png": "/my-portfolio/static/media/udemy-certificate.54b0ea230294508d4067.png",
+    "static/media/chit-chat_img.png": "/my-portfolio/static/media/chit-chat_img.1f66abd210a97db55c28.png",
     "static/media/me.jpg": "/my-portfolio/static/media/me.ab7b124b3b12be5e6da5.jpg",
+    "static/media/devops.webp": "/my-portfolio/static/media/devops.975702a9e46626c3f05d.webp",
     "static/media/weather.jpg": "/my-portfolio/static/media/weather.1c460a5d07474be2a28f.jpg",
     "static/media/objdet.jpeg": "/my-portfolio/static/media/objdet.9a165c431b63fdab3407.jpeg",
     "static/media/genai.jpeg": "/my-portfolio/static/media/genai.0367515802cb317ed65c.jpeg",
     "index.html": "/my-portfolio/index.html",
     "main.5b29fc0c.css.map": "/my-portfolio/static/css/main.5b29fc0c.css.map",
-    "main.705f53a0.js.map": "/my-portfolio/static/js/main.705f53a0.js.map",
-    "453.ed3810f9.chunk.js.map": "/my-portfolio/static/js/453.ed3810f9.chunk.js.map"
+    "main.42604275.js.map": "/my-portfolio/static/js/main.42604275.js.map",
+    "317.46da3abf.chunk.js.map": "/my-portfolio/static/js/317.46da3abf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b29fc0c.css",
-    "static/js/main.705f53a0.js"
+    "static/js/main.42604275.js"
   ]
 }
