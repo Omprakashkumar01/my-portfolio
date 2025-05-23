@@ -5,11 +5,23 @@ import diceeGameImg from './asset/dicee.png';
 import weatherimg from './asset/weather.jpg';
 import genai from './asset/genai.jpeg';
 import objdet from './asset/objdet.jpeg';
+import devops from './asset/devops.webp';
+import msg_img from './asset/chit-chat_img.png' ;
 import drum from './asset/drum.png';
 import simon from './asset/simon.png';
 import "./ProjectsSection.css";
 
 const projects = [
+  {
+    name: "Optimizing Microservices Deployment",
+    link: "https://github.com/Omprakashkumar01/devops_project",
+    image: devops,
+  },
+  {
+    name: "Chit-Chat ",
+    link: "https://github.com/Omprakashkumar01/chit-chat",
+    image: msg_img,
+  },
   {
     name: "GEN-AI AWS",
     link: "https://github.com/Omprakashkumar01/GenAI-AWS-",
